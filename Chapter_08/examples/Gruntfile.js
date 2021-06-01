@@ -43,7 +43,7 @@ module.exports = function(grunt) {
                     {
                         "cwd": "src/bower_components",
                         "src": ["*"],
-                        "dest": "dist/bower_components/",
+                        "dest": "dist/../../node_modules/",
                         "expand": true
                     },
                     {
