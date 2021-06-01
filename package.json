@@ -1,0 +1,14 @@
+{
+  "name": "mastering-bootstrap-4",
+  "version": "1.0.0",
+  "description": "book examples",
+  "main": "index.js",
+  "author": "book author",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "tether": "^2.0.0"
+  }
+}
