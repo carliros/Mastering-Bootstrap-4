@@ -1,5 +1,10 @@
 # Mastering Bootstrap 4
 This is the code repository for [Mastering Bootstrap 4](https://www.packtpub.com/web-development/mastering-bootstrap-4?utm_source=github&utm_medium=repository&utm_campaign=9781783981120), published by [Packt](https://www.packtpub.com/). It contains all the supporting project files necessary to work through the book from start to finish.
+
+## Bootstrap docs
+- https://getbootstrap.com/docs/5.0/
+- https://getbootstrap.com/docs/4.6/
+
 ## Instructions and Navigations
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
