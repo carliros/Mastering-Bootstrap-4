@@ -21,7 +21,7 @@ body {
 }
 
 .bg-myphoto-welcome {
-	background-image: url('/images/skyline.png');
+	background-image: url('../images/skyline.png');
 	background-size: cover;
 	color: #504747;
 }
