@@ -31,10 +31,10 @@
                               Profile <span class="caret"></span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#profile-modal">
+                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#profile-modal">
                                     Profile
                                 </a>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#settings-modal">
+                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#settings-modal">
                                     Settings
                                 </a>
                                 <div class="dropdown-divider"></div>
@@ -47,12 +47,12 @@
                 </div>
             </div>
         </nav>
-        <div class="modal" id="profile-modal">
+        <div class="modal" id="profile-modal" tabindex="-1">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
                         <h4 class="modal-title" id="profile-modal-label">Profile</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         Profile
@@ -64,8 +64,8 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
                         <h4 class="modal-title" id="settings-modal-label">Settings</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         Settings
